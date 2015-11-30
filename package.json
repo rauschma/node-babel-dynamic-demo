@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "babel-cli": "^6.2.4",
+    "babel-preset-es2015-node5": "^1.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.2.4",
+    "mocha": "^2.2.5"
+  },
+  "bin": {
+    "point": "./src/point.js"
+  },
+  "scripts": {
+    "point": "./src/point.js",
+    "test": "mocha --ui qunit --compilers js:babel-core/register"
+  },
+  "babel": {
+    "presets": [
+      "es2015-node5"
+    ]
+  }
+}
