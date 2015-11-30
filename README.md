@@ -20,3 +20,5 @@ Demonstrates how to use Babel dynamically (compiled at runtime) on Node.js.
     ```
     npm test
     ```
+
+Thanks to npm scripts, everything you need is installed locally.
