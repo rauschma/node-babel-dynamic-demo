@@ -5,9 +5,12 @@ export class Point {
         this.x = x;
         this.y = y;
     }
+    toString() {
+        return `new Point(${this.x}, ${this.y})`;
+    }
 }
 
 if (require.main === module) {
     let pt = new Point(7,4);
-    console.log(`My point: ${JSON.stringify(pt)}`);
+    console.log(`My point: ${pt}`);
 }
